@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw Skills 商店 - 中文 AI 技能包</title>
+    <meta name="description" content="精选 20 个高价值 AI 技能包，助力内容创作、数据分析、自动化开发。中文优化，一键安装。">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Hero */
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 0; text-align: center; }
+        .hero h1 { font-size: 3em; margin-bottom: 20px; }
+        .hero p { font-size: 1.3em; opacity: 0.9; margin-bottom: 30px; }
+        .hero .cta { display: inline-block; background: white; color: #667eea; padding: 15px 40px; border-radius: 30px; font-weight: bold; text-decoration: none; font-size: 1.1em; transition: transform 0.3s; }
+        .hero .cta:hover { transform: scale(1.05); }
+        
+        /* Stats */
+        .stats { background: #f8f9fa; padding: 40px 0; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; text-align: center; }
+        .stat h2 { font-size: 2.5em; color: #667eea; }
+        .stat p { color: #666; font-size: 1.1em; }
+        
+        /* Pricing */
+        .pricing { padding: 80px 0; }
+        .pricing h2 { text-align: center; font-size: 2.5em; margin-bottom: 50px; }
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .pricing-card { background: white; border: 2px solid #e9ecef; border-radius: 15px; padding: 40px; text-align: center; transition: transform 0.3s, box-shadow 0.3s; }
+        .pricing-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .pricing-card.featured { border-color: #667eea; position: relative; }
+        .pricing-card.featured::before { content: "最受欢迎"; position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #667eea; color: white; padding: 5px 20px; border-radius: 20px; font-size: 0.9em; }
+        .pricing-card h3 { font-size: 1.8em; margin-bottom: 10px; }
+        .pricing-card .price { font-size: 3em; font-weight: bold; color: #667eea; margin: 20px 0; }
+        .pricing-card .price span { font-size: 0.4em; color: #666; }
+        .pricing-card ul { list-style: none; margin: 30px 0; text-align: left; }
+        .pricing-card ul li { padding: 10px 0; border-bottom: 1px solid #eee; }
+        .pricing-card ul li::before { content: "✓"; color: #28a745; font-weight: bold; margin-right: 10px; }
+        .pricing-card .btn { display: block; background: #667eea; color: white; padding: 15px; border-radius: 30px; text-decoration: none; font-weight: bold; margin-top: 20px; transition: background 0.3s; }
+        .pricing-card .btn:hover { background: #5568d3; }
+        
+        /* Skills */
+        .skills { background: #f8f9fa; padding: 80px 0; }
+        .skills h2 { text-align: center; font-size: 2.5em; margin-bottom: 50px; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+        .skill-card { background: white; padding: 20px; border-radius: 10px; border-left: 4px solid #667eea; }
+        .skill-card h4 { margin-bottom: 10px; }
+        .skill-card p { color: #666; font-size: 0.95em; }
+        
+        /* FAQ */
+        .faq { padding: 80px 0; }
+        .faq h2 { text-align: center; font-size: 2.5em; margin-bottom: 50px; }
+        .faq-item { max-width: 800px; margin: 0 auto 20px; background: #f8f9fa; padding: 20px; border-radius: 10px; }
+        .faq-item h4 { margin-bottom: 10px; color: #667eea; }
+        
+        /* Footer */
+        footer { background: #333; color: white; padding: 40px 0; text-align: center; }
+        footer a { color: #667eea; }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>OpenClaw Skills 商店</h1>
+            <p>精选 20 个高价值 AI 技能包，中文优化，一键安装</p>
+            <p>跳过繁琐配置，直接使用实战验证的 AI 工作流</p>
+            <a href="#pricing" class="cta">立即购买</a>
+        </div>
+    </section>
+    
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat">
+                    <h2>20+</h2>
+                    <p>精选技能包</p>
+                </div>
+                <div class="stat">
+                    <h2>中文优化</h2>
+                    <p>本地化文档/示例</p>
+                </div>
+                <div class="stat">
+                    <h2>一键安装</h2>
+                    <p>无需技术背景</p>
+                </div>
+                <div class="stat">
+                    <h2>持续更新</h2>
+                    <p>定期新增技能</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2>选择套餐</h2>
+            <div class="pricing-grid">
+                <!-- 基础包 -->
+                <div class="pricing-card">
+                    <h3>基础包</h3>
+                    <div class="price">¥19<span>/一次性</span></div>
+                    <ul>
+                        <li>5 个入门 Skills</li>
+                        <li>OpenClaw 中文安装诊断</li>
+                        <li>中文内容创作助手</li>
+                        <li>数据分析助手</li>
+                        <li>Git 工作流助手</li>
+                        <li>命令行工具箱</li>
+                    </ul>
+                    <a href="#payment" class="btn">扫码购买</a>
+                </div>
+                
+                <!-- 进阶包（推荐） -->
+                <div class="pricing-card featured">
+                    <h3>进阶包</h3>
+                    <div class="price">¥49<span>/一次性</span></div>
+                    <ul>
+                        <li><strong>8 个效率 Skills</strong></li>
+                        <li>AI 副业顾问（自动找赚钱机会）</li>
+                        <li>AI 代码审查</li>
+                        <li>API 调试工具</li>
+                        <li>Excel 表格处理</li>
+                        <li>Docker 助手</li>
+                        <li>SQL 查询构建器</li>
+                        <li>社交媒体定时发布</li>
+                        <li>PDF 处理工具</li>
+                    </ul>
+                    <a href="#payment" class="btn">扫码购买</a>
+                </div>
+                
+                <!-- 全套包 -->
+                <div class="pricing-card">
+                    <h3>全套包</h3>
+                    <div class="price">¥99<span>/一次性</span></div>
+                    <ul>
+                        <li><strong>全部 20 个 Skills</strong></li>
+                        <li>包含基础包 + 进阶包</li>
+                        <li>+ 7 个企业级 Skills</li>
+                        <li>自由职业助手</li>
+                        <li>安全审计</li>
+                        <li>Kubernetes 助手</li>
+                        <li>CI/CD 构建器</li>
+                        <li>发票生成器</li>
+                        <li>性能优化</li>
+                        <li>多平台消息推送</li>
+                    </ul>
+                    <a href="#payment" class="btn">扫码购买</a>
+                </div>
+            </div>
+            
+            <!-- 定制服务 -->
+            <div style="max-width: 600px; margin: 50px auto 0; background: #fff3cd; padding: 30px; border-radius: 15px; text-align: center;">
+                <h3 style="margin-bottom: 15px;">🎯 定制服务</h3>
+                <p style="margin-bottom: 20px;">1 对 1 定制技能包 + 技术支持 + 持续更新</p>
+                <div style="font-size: 2em; font-weight: bold; color: #667eea; margin-bottom: 20px;">¥999</div>
+                <a href="#payment" class="btn" style="background: #ffc107; color: #333;">联系定制</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills List -->
+    <section class="skills">
+        <div class="container">
+            <h2>包含技能列表</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>🚀 OpenClaw 中文安装诊断</h4>
+                    <p>自动检测安装问题、修复常见错误、生成配置</p>
+                </div>
+                <div class="skill-card">
+                    <h4>📝 中文内容创作助手</h4>
+                    <p>一键生成掘金/知乎/公众号/小红书风格文章</p>
+                </div>
+                <div class="skill-card">
+                    <h4>📊 数据分析助手</h4>
+                    <p>数据清洗、统计分析、可视化建议</p>
+                </div>
+                <div class="skill-card">
+                    <h4>🔀 Git 工作流助手</h4>
+                    <p>分支管理、冲突解决、提交规范</p>
+                </div>
+                <div class="skill-card">
+                    <h4>💰 AI 副业顾问</h4>
+                    <p>自动扫描接单平台，分析项目可行性，推荐赚钱机会</p>
+                </div>
+                <div class="skill-card">
+                    <h4>🔍 AI 代码审查</h4>
+                    <p>自动分析代码质量、发现 Bug、提供优化建议</p>
+                </div>
+                <div class="skill-card">
+                    <h4>🔌 API 调试工具</h4>
+                    <p>快速测试 API、生成请求代码、分析响应</p>
+                </div>
+                <div class="skill-card">
+                    <h4>📈 Excel 表格处理</h4>
+                    <p>读取、编辑、转换 Excel/CSV 文件，数据清洗</p>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 30px; color: #666;">...以及另外 12 个高价值技能</p>
+        </div>
+    </section>
+    
+    <!-- Payment -->
+    <section class="pricing" id="payment">
+        <div class="container">
+            <h2>扫码支付</h2>
+            <p style="text-align: center; margin-bottom: 40px; color: #666;">支付后截图发到微信/Telegram，24 小时内发送下载链接</p>
+            
+            <div style="max-width: 400px; margin: 0 auto; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center;">
+                <h3 style="margin-bottom: 30px;">微信/支付宝扫码</h3>
+                
+                <!-- 收款码占位 - 需要替换为实际图片 -->
+                <div style="background: #f8f9fa; padding: 40px; border-radius: 10px; margin-bottom: 20px;">
+                    <p style="color: #999;">[收款码待添加]</p>
+                    <p style="color: #999; font-size: 0.9em;">请提供微信/支付宝收款码图片</p>
+                </div>
+                
+                <p style="color: #666; font-size: 0.9em;">支付备注：Skills 套餐 + 邮箱</p>
+                <p style="color: #666; font-size: 0.9em;">示例：基础包 user@example.com</p>
+            </div>
+            
+            <!-- 联系方式 -->
+            <div style="max-width: 400px; margin: 40px auto 0; text-align: center;">
+                <h4 style="margin-bottom: 15px;">联系方式</h4>
+                <p style="margin-bottom: 10px;">📧 Email: [待添加]</p>
+                <p style="margin-bottom: 10px;">💬 Telegram: [待添加]</p>
+                <p>💬 微信: [待添加]</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>常见问题</h2>
+            
+            <div class="faq-item">
+                <h4>什么是 OpenClaw Skills？</h4>
+                <p>Skills 是 OpenClaw AI 助手的功能扩展包，类似手机 App。安装后，你的 AI 助手就能执行特定任务（如内容创作、数据分析）。</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4>需要技术背景吗？</h4>
+                <p>不需要。基础包已包含安装诊断工具，跟着步骤操作即可。遇到问题可联系技术支持。</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4>支付后多久能收到？</h4>
+                <p>支付后截图发给我们，24 小时内发送下载链接和安装教程。</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4>支持退款吗？</h4>
+                <p>支持 7 天无理由退款（需未下载/使用）。如有问题，优先提供技术支持。</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4>和 Claw Mart 有什么区别？</h4>
+                <p>我们专注中文市场，所有技能都有中文文档/示例，支持微信/支付宝支付，提供中文技术支持。</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2026 OpenClaw Skills 商店 | <a href="https://openclaw.ai" target="_blank">OpenClaw 官网</a></p>
+            <p style="margin-top: 10px; opacity: 0.7;">基于 OpenClaw 开源项目 | Skills 由社区贡献</p>
+        </div>
+    </footer>
+</body>
+</html>

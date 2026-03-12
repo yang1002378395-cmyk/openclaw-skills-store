@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yang1002378395-cmyk.github.io/openclaw-skills-store/sitemap.xml
